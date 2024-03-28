@@ -1,0 +1,30 @@
+.navbar-header {
+  background: #fff;
+  z-index: 4;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 1.5rem;
+  height: 0.12rem;
+  display: block;
+  background: #232323;
+}
+
+.hamburger span:nth-of-type(2) {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.mobile-menu {
+  height: 0;
+  overflow: hidden;
+  background: #fff;
+}
+
+.mobile-menu.open {
+  height: 100vh;
+}
